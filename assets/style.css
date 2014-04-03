@@ -1,0 +1,77 @@
+.viewer.thumbnails li {
+  list-style: none;
+  width: 20%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px; }
+  .viewer.thumbnails li img {
+    width: 100%; }
+.viewer.thumbnails span {
+  display: none; }
+.viewer.list .group h2:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  content: '\f017';
+  opacity: 0.5;
+  padding-right: 10px; }
+.viewer.list .group ul {
+  display: none;
+  overflow: hidden; }
+.viewer.list .group li {
+  list-style: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 20px; }
+  .viewer.list .group li:after {
+    content: ' ';
+    display: block;
+    clear: both; }
+  .viewer.list .group li h4 {
+    display: inline; }
+  .viewer.list .group li .buttons {
+    width: 40px;
+    float: left; }
+    .viewer.list .group li .buttons i {
+      display: inline-block;
+      padding: 5px;
+      height: 32px;
+      width: 32px;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+      background: #46495e;
+      color: #ffffff;
+      font-size: 24px; }
+      .viewer.list .group li .buttons i.delete:hover {
+        background-color: #bb2222;
+        cursor: pointer; }
+      .viewer.list .group li .buttons i.edit:hover {
+        background-color: #1a98b6;
+        cursor: pointer; }
+  .viewer.list .group li .image {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    background: url("loading.gif") center no-repeat; }
+    .viewer.list .group li .image img {
+      max-width: 140px;
+      max-height: 140px;
+      position: absolute;
+      -webkit-transition: opacity 1s;
+      -moz-transition: opacity 1s;
+      -ms-transition: opacity 1s;
+      -o-transition: opacity 1s;
+      transition: opacity 1s;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.4); }
+  .viewer.list .group li .data {
+    float: left; }
